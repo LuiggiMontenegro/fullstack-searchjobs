@@ -51,7 +51,7 @@ searchInput.addEventListener("input", (e) => {
       title.includes(inputValue) ||
       company.includes(inputValue) ||
       jobType.includes(inputValue) ||
-      description.includes(inputValue)
+      description.includes(inputValue) 
     );
   });
 

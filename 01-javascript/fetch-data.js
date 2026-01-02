@@ -23,8 +23,9 @@ fetch("./data.json")
               <p>
                ${job.descripcion}
               </p>
-              <button class="button-apply-job" id="main-btn">Aplicar</button>
-            </div>`;
+              </div>
+              <button class="button-apply-job" id="main-btn">Aplicar</button>`
+            
 
       container.appendChild(article);
     });
